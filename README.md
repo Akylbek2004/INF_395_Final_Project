@@ -3,8 +3,9 @@
 ## Team Information
 
 - Akylbek Zhokenov 220103221 20-P
-- 
--  
+- Alisher Gilmanov 220103325 20-P
+- Azamat Uzakbayev 220103269 20-P
+- Adi Zaitkaliyev  220103306 20-P
 
 ## Project Description
 
