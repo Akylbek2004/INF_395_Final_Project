@@ -25,7 +25,6 @@ model = joblib.load("rf_model.pkl")
 vectorizer = joblib.load("tfidf_vectorizer.pkl")
 label_encoder = joblib.load("label_encoder.pkl")
 
-# ==== Кастомные стили ====
 st.set_page_config(page_title="Sentiment Classifier", page_icon="🎬")
 st.markdown("""
     <style>
@@ -55,7 +54,6 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# ==== Интерфейс ====
 st.markdown('<h1 style="text-align: center;">🎬 Sentiment Classifier</h1>', unsafe_allow_html=True)
 st.write("Enter the text of the review, and the model will tell you whether it is positive or negative.")
 
