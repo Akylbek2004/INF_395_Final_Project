@@ -2,7 +2,6 @@ import pandas as pd
 import psycopg2
 from sqlalchemy import create_engine
 
-# Пример DataFrame
 df = pd.read_csv(r"C:\Users\akylb\Downloads\IMDB Dataset.csv\IMDB Dataset.csv")
 conn = psycopg2.connect(
     host="localhost",    
