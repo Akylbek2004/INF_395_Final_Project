@@ -11,7 +11,6 @@ from nltk.corpus import stopwords
 
 nltk.download('stopwords')
 
-# ==== Предобработка текста ====
 stopword = stopwords.words('english')
 punc = string.punctuation
 
@@ -22,7 +21,6 @@ def clean_text(text):
     text = " ".join([word for word in text.split() if word.lower() not in stopword])
     return text.lower()
 
-# ==== Загрузка модели и векторайзера ====
 model = joblib.load("rf_model.pkl")
 vectorizer = joblib.load("tfidf_vectorizer.pkl")
 label_encoder = joblib.load("label_encoder.pkl")

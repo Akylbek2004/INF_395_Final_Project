@@ -19,6 +19,7 @@ from sklearn.preprocessing import LabelEncoder
 
 import re
 
+
 df=pd.read_csv(r"C:\Users\akylb\Downloads\IMDB Dataset.csv\IMDB Dataset.csv")
 
 def remove_html_tags(text):
