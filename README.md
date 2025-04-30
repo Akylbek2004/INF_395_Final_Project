@@ -36,6 +36,8 @@ Pandas, NumPy – data manipulation
 
 Scikit-learn – machine learning library
 
+PostgreSql - DataBase
+
 Streamlit – web app interface
 
 Git, GitHub – version control and hosting
