@@ -9,16 +9,16 @@
 
 ## Project Description
 
-This project is developed as part of the **Advanced Programming (INF395)** course.  
-It implements a **review classification system** using **machine learning** techniques.  
+This project is developed as part of the **Advanced Programming (INF395)** course.
+It implements a **review classification system** using **machine learning** techniques.
 The goal is to classify IMDB movie reviews as **positive** or **negative** based on their content.
 
-The system uses the **Random Forest Classifier** from scikit-learn to train a sentiment analysis model.  
+The system uses the **Random Forest Classifier** from scikit-learn to train a sentiment analysis model.
 A **Streamlit** web interface is developed to provide user interaction for real-time predictions.
 
 ## Problem Statement
 
-The problem you're solving is the classification of movie comments into two categories: positive and negative. This is important for understanding audience sentiment, which can help movie studios, marketing teams, and content creators tailor their strategies based on viewer feedback. By automating sentiment analysis, you can efficiently process large volumes of reviews and gain insights into how well a movie is received by its audience.
+The task is to classify movie reviews into two groups: positive or negative. This helps identify audience sentiment, which is valuable for movie studios, marketers, and content creators to adjust their strategies based on viewer opinions. Automating this sentiment analysis makes it possible to quickly analyze large numbers of reviews and understand how audiences feel about a film.
 
 ## Objectives
 
