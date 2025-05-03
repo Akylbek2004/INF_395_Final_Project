@@ -1,16 +1,15 @@
-import pandas as pd
 import psycopg2
-from sqlalchemy import create_engine
-import tensorflow as tf
-import matplotlib.pyplot as plt
-import pandas as pd
-import numpy as np
 import zipfile
-import re  
+import re
+from sqlalchemy import create_engine
 
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import tensorflow as tf
 
 # Download NLTK stopwords
-import nltk 
+import nltk
 nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk.stem import SnowballStemmer
@@ -72,9 +71,9 @@ def remove_stopwords(text):
 df['review'] = df['review'].apply(remove_stopwords)
 
 conn = psycopg2.connect(
-    host="localhost",    
-    database="ML", 
-    user="postgres", 
+    host="localhost",
+    database="ML",
+    user="postgres",
     password="1234",
     port="5432"
 )

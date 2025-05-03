@@ -16,7 +16,7 @@ nltk.download('stopwords')
 stopword = stopwords.words('english')
 punc = string.punctuation
 
-# Function to clean input text
+# Function to clean input text(resets to lowercase, removes HTML tags, URLs, punctuation, and stopwords)
 def clean_text(text):
     text = re.sub('<.*?>', '', text)  # Remove HTML tags
     text = re.sub(r'https?://\S+|www\.\S+', '', text)  # Remove URLs
@@ -65,7 +65,7 @@ st.markdown("""
 st.markdown('<h1 style="text-align: center;">🎬 Sentiment Classifier</h1>', unsafe_allow_html=True)
 st.write("Enter the text of the review, and the model will tell you whether it is positive or negative.")
 
-# User input text box
+# User input text label
 user_input = st.text_area("Enter a review:")
 
 # Handle prediction logic when button is clicked
