@@ -44,7 +44,7 @@ Git, GitHub – version control and hosting
 
 ## Installation Instructions
 1.Clone the repository
-git clone https://github.com/yourusername/yourrepository.git
+git clone https://github.com/Akylbek2004/AdvancedProjectNLP_20-P.git
 2.Navigate into the project directory
 cd yourrepository
 3.Create a virtual environment
