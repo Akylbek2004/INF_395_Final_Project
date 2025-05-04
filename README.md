@@ -53,11 +53,12 @@ python -m venv venv
 5.Install the required dependencies
 pip install -r requirements.txt
 6.Start the application If you are using Streamlit for the UI, you can run:
+
 streamlit run app.py
 
 ## Usage Guide
 For positive
-![image](https://github.com/user-attachments/assets/7d635f75-7c79-4448-8062-2b34bfd26a85)
+![Снимок экрана 2025-05-04 150434](https://github.com/user-attachments/assets/41c3eb61-51c9-4563-9f42-d0e17706d580)
 
 For negative
 ![image](https://github.com/user-attachments/assets/e017334b-861c-4537-b49b-24618ad36188)
