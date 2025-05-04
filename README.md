@@ -57,9 +57,11 @@ streamlit run app.py
 
 ## Usage Guide
 For positive
-![image](https://github.com/user-attachments/assets/e216ed38-a1d3-4c8a-a012-6eabf463922d)
+![image](https://github.com/user-attachments/assets/7d635f75-7c79-4448-8062-2b34bfd26a85)
+
 For negative
-![image](https://github.com/user-attachments/assets/b140a02b-a03a-4164-ba22-2396369cc07f)
+![image](https://github.com/user-attachments/assets/e017334b-861c-4537-b49b-24618ad36188)
+
 
 ## References
 DataSet in kaggle: https://www.kaggle.com/
