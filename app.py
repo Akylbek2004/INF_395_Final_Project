@@ -16,10 +16,7 @@ nltk.download('stopwords')
 stopword = stopwords.words('english')
 punc = string.punctuation
 
-<<<<<<< HEAD
-=======
 # Function to clean input text(resets to lowercase, removes HTML tags, URLs, punctuation, and stopwords)
->>>>>>> f6c8a70be19d71f1f438d16a7cf7aaf922e6a748
 def clean_text(text):
     text = re.sub('<.*?>', '', text)
     text = re.sub(r'https?://\S+|www\.\S+', '', text)
@@ -77,16 +74,12 @@ st.markdown("""
 # Sidebar navigation
 page = st.sidebar.selectbox("Select a page", ["🔮 Predict Sentiment", "📊 Model Evaluation", "📘 About"])
 
-<<<<<<< HEAD
 # Page 1: Prediction
 if page == "🔮 Predict Sentiment":
     st.markdown('<h1 style="text-align: center;">🎬 Sentiment Classifier</h1>', unsafe_allow_html=True)
     st.write("Enter the text of the review, and the model will tell you whether it is positive or negative.")
-=======
-# User input text label
-user_input = st.text_area("Enter a review:")
->>>>>>> f6c8a70be19d71f1f438d16a7cf7aaf922e6a748
 
+    # User input text label
     user_input = st.text_area("Enter a review:")
     if st.button("Predict"):
         if user_input.strip() == "":
