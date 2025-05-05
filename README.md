@@ -44,14 +44,23 @@ Git, GitHub – version control and hosting
 
 ## Installation Instructions
 1.Clone the repository
-git clone https://github.com/Akylbek2004/AdvancedProjectNLP_20-P.git
+
+git clone https://github.com/Akylbek2004/Sentiment_Classifier_20-P.git
+
 2.Navigate into the project directory
+
 cd yourrepository
+
 3.Create a virtual environment
+
 python -m venv venv
+
 4.Activate the virtual environment
+
 5.Install the required dependencies
+
 pip install -r requirements.txt
+
 6.Start the application If you are using Streamlit for the UI, you can run:
 
 streamlit run app.py
@@ -66,4 +75,5 @@ For negative
 
 ## References
 DataSet in kaggle: https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
+
 Streamlit course: https://github.com/streamlit/streamlit
