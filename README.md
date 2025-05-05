@@ -66,11 +66,19 @@ pip install -r requirements.txt
 streamlit run app.py
 
 ## Usage Guide
+![image](https://github.com/user-attachments/assets/c4184cf7-15fb-4945-8691-b91322fd0998)
+
+![image](https://github.com/user-attachments/assets/4398efd7-4b90-4f9c-bd1a-9c657fccddb6)
+
+![image](https://github.com/user-attachments/assets/9c50262f-83b5-4296-9b88-8939a9fd1414)
+
+
 For positive
-![Снимок экрана 2025-05-04 150434](https://github.com/user-attachments/assets/41c3eb61-51c9-4563-9f42-d0e17706d580)
+![image](https://github.com/user-attachments/assets/64f769e2-a131-4f52-bafe-6d1d11647320)
+
 
 For negative
-![image](https://github.com/user-attachments/assets/e017334b-861c-4537-b49b-24618ad36188)
+![image](https://github.com/user-attachments/assets/e8e9b49b-aa5a-4a6e-9419-1bb9cc55535c)
 
 
 ## References
