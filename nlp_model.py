@@ -5,7 +5,7 @@ import numpy as np
 import zipfile
 
 # Download NLTK stopwords
-import nltk 
+import nltk
 nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk.stem import SnowballStemmer
@@ -21,18 +21,18 @@ import sqlalchemy
 from sqlalchemy import create_engine
 import pandas as pd
 
-# Параметры подключения
+# Connection parameters
 host = "localhost"
 database = "ML"
 user = "postgres"
 password = "1234"
-port = "5432" 
+port = "5432"
 
 connection_string = f"postgresql+psycopg2://{user}:{password}@{host}:{port}/{database}"
 
 engine = create_engine(connection_string)
 
-query = "SELECT * FROM ml_project"  
+query = "SELECT * FROM ml_project"
 
 df = pd.read_sql(query, engine)
 
