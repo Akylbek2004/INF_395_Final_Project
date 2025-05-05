@@ -75,3 +75,7 @@ import joblib
 joblib.dump(rf_model, "rf_model.pkl")
 joblib.dump(vectorizer, "tfidf_vectorizer.pkl")
 joblib.dump(label_encoder, "label_encoder.pkl")
+
+joblib.dump(X_test_text, "X_test.pkl")
+joblib.dump(y_test, "y_test.pkl")
+joblib.dump(label_encoder, "label_encoder.pkl")
