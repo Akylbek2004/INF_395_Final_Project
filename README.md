@@ -65,4 +65,5 @@ For negative
 
 
 ## References
-DataSet in kaggle: https://www.kaggle.com/
+DataSet in kaggle: https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
+Streamlit course: https://github.com/streamlit/streamlit
